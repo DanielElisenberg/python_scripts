@@ -1,0 +1,3 @@
+subtraction: \033[31m
+addition: \033[32m
+default: \033[0m

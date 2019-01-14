@@ -1,0 +1,15 @@
+keyword: 0;34
+special: 0:91
+decorator: 0;91
+string: 0;96
+varinit: 0;36
+number: 0;33
+comment: 0;30
+mlcomment: 0;96
+try: 0;34
+except: 0;34
+funcname: 0;95
+classname: 0;95
+excepterror: 0;91
+return: 0 ;34
+pass: 0;34

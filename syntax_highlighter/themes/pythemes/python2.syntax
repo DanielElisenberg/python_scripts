@@ -1,0 +1,15 @@
+ "(\b(class)\b|\b(from)\b|\b(def)\b|\b(in)\b|\b(for)\b|\b(if)\b|\b(while)\b|\b(else)(?=:)|\b(do)\b|\b(import)\b|\b(as)\b)|\b(elif)\b": keyword
+"(\b(True)\b|\b(False)\b|\b(None)\b)": special
+"(?<=\.)(.*)(?=\()" : decorator
+"((?<=")(.*)(?="))|((?<=')(.*)(?='))": string
+"(\b)(.*)(?=\s=)(?!\s==)(?!==)|(?==)(?!\s==)(?!==)": varinit
+"(\s)([1-9]*)(?=(\s|\:))": number
+"(#.*)(?=\n)": comment
+"(['"])\1\1(.*?)\1{3}": mlcomment
+"\b(try)(?=:)": try
+"\b(except)\b": except
+"((?<=except..0m)|(?<=except\s))(.*)(?=:)": excepterror
+"((?<=def..0m)|(?<=def\s))(.*)(?=\()": funcname
+"((?<=class..0m)|(?<=class\s))(.*)(?=:)": classname
+"\b(return)\b": return
+"\b(pass)\b": pass
